@@ -408,8 +408,6 @@ a {
     margin-top: 16px;
 }
 
-.footer-form-label {}
-
 .footer-form-filed {
     border: 1px solid #fff;
     border-radius: 4px;
@@ -457,9 +455,7 @@ a {
 .footer-btn:focus {
     background-color: #31d0aa;
 }
-.footer-subscribe-icon {
 
-}
 /* #endregion */
 
 /* #region modal */
@@ -517,13 +513,16 @@ a {
     position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
     border-radius: 100%;
     border-width: 1px;
     background-color: #E7E9FC;
     border-color: rgba(0, 0, 0, 0.1);
     border-style: solid;
     display: flex;
-    padding: 8px;
+    justify-content: center;
+    align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
