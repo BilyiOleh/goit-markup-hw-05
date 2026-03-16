@@ -121,9 +121,14 @@ a {
 .nav-container {
     display: flex;
 }
-@media only screen and (max-width: 1157.98px) {
+@media only screen and (min-width: 768px) {
   .nav-container {
     gap: 120px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .nav-container {
+    gap: 76px;
   }
 }
 .logo {
@@ -1067,6 +1072,7 @@ a {
     justify-content: center;
     align-items: center;
     border: none;
+    background-color: transparent;
 }
 @media only screen and (min-width: 768px) {
   .mobile-menu-btn {
