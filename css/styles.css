@@ -1053,7 +1053,6 @@ a {
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .mobile-menu-btn {
@@ -1093,6 +1092,8 @@ a {
 }
 
 .mobile-menu-contacts {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 48px;
 }
 
