@@ -120,7 +120,6 @@ a {
 
 .nav-container {
     display: flex;
-    gap: 76px;
 }
 @media only screen and (max-width: 1157.98px) {
   .nav-container {
